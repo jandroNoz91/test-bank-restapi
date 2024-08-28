@@ -1,0 +1,27 @@
+{
+  "namespace" : "com.example.bank.model",
+  "type" : "record",
+  "name" : "Transaction",
+  "fields" : [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "name": "account",
+      "type": "long"
+    },
+    {
+      "name": "amount",
+      "type": "double"
+    },
+    {
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "name": "date",
+      "type": "string"
+    }
+   ]
+}
